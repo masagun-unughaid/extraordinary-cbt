@@ -55,10 +55,10 @@ COPY conf/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
     
 # Add application
 RUN mkdir /cache/ && \
-    wget -O /cache/ecbt.zip https://shellrean.sgp1.cdn.digitaloceanspaces.com/extraordinarycbt%2Frelease%2Fexo-cbt3.16.3.build-5%20-%20ristretto-compiled.zip && \
+    wget -O /cache/ecbt.zip https://s3.ekstraordinary.com/extraordinarycbt/release-ristretto/exo-cbt-3178-compiled.zip && \
     unzip /cache/ecbt.zip -d /cache && \
-    mv /cache/'exo-cbt3.16.3.build-5 - ristretto-compiled'/the-exo-cbt/* /var/www/html && \
-    mv /cache/'exo-cbt3.16.3.build-5 - ristretto-compiled'/dump-mysql.sql /app && \
+    mv /cache/'exo-cbt3.17.8.build-1 - ristretto-compiled'/the-exo-cbt/* /var/www/html && \
+    mv /cache/'exo-cbt3.17.8.build-1 - ristretto-compiled'/dump-mysql.sql /app && \
     rm -r /cache
 COPY conf/.env /var/www/html
 RUN chown -R nginx:nginx /var/www/html
