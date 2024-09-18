@@ -1,6 +1,8 @@
 ## Setup for aapanel
 this setup for setup nginx-proxy-manager and extraordinary cbt
 - Install AAPanel From aapanel.com
+- akses aapanel via webpanel for admin aapanel setup
+- use port and admin akses for detail in setup aapanel note
 - Activate Docker Compose and Docker Manager from applications list 
 - Run Code in terminal per step above
 ---
