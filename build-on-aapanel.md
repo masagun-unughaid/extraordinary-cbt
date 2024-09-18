@@ -6,13 +6,13 @@ Run Code in terminal
 ### Run Ngix Proxy Manager
 -----
 ```bash
-docker run -d
+docker run -d \
     --name=ngixproxy \
     -p 80:80 \
     -p 443:443 \
     -p 81:81 \
-    -v  ./data:/data
-    -v  ./letsencrypt:/etc/letsencrypt
+    -v  ./data:/data \
+    -v  ./letsencrypt:/etc/letsencrypt \
     --restart unless-stopped \
     jc21/nginx-proxy-manager:latest 
 ```        
