@@ -1,14 +1,14 @@
 ## Setup for aapanel
-
+this setup for setup nginx-proxy-manager and extraordinary cbt
 - Install AAPanel From aapanel.com
 - Activate Docker Compose and Docker Manager from applications list 
 - Run Code in terminal per step above
 ---
-### Run Ngix Proxy Manager
+### Run Nginx Proxy Manager
 -----
 ```bash
 docker run -d \
-    --name=ngixproxy \
+    --name=nginx-proxy-manager \
     -p 80:80 \
     -p 443:443 \
     -p 81:81 \
@@ -33,8 +33,8 @@ docker run -d \
 ```
   ----
 
-### Web interface Setup Ngix Proxy Manager 
-Visit the url `http://<IP_ADDRESS>:81` to access ngix proxy manager
+### Web interface Setup Nginx Proxy Manager 
+Visit the url `http://<IP_ADDRESS>:81` to access nginx proxy manager
 Default Password :
 - Email:    admin@example.com
 - Password: changeme
