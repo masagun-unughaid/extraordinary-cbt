@@ -1,7 +1,8 @@
-Install AAPanel From aapanel.com
----
-Activate Docker Compose and Docker Manager
-Run Code in terminal 
+Setup for aapanel
+
+- Install AAPanel From aapanel.com
+- Activate Docker Compose and Docker Manager from applications list 
+- Run Code in terminal per step above
 ---
 ### Run Ngix Proxy Manager
 -----
