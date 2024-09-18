@@ -33,6 +33,18 @@ docker run -d \
   ----
 
 ## Web interface Setup Ngix Proxy Manager 
+Visit the url `http://<IP_ADDRESS>:81` to access ngix proxy manager
 Default Password :
 - Email:    admin@example.com
 - Password: changeme
+
+### Web Interface Exam Extraordinary
+
+Visit the url `http://<IP_ADDRESS>:8080` to have access to the Extraordinary CBT's web interface.
+
+And visit the url `http://<IP_ADDRESS>:8080/admin-system` to have access to the Extraordinary CBT's web settings.
+
+-   Default username: `admin@shellrean.com`
+-   Default password: `criticalpassword`
+
+**It's highly recommended to change the default access credentials on first start**.
