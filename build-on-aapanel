@@ -2,8 +2,9 @@ Install AAPanel From aapanel.com
 Activate Docker Compose and Docker Manager
 Run Code in terminal 
 ---
-Run Ngix Proxy Manager
+### Run Ngix Proxy Manager
 -----
+```bash
 docker run -d
     --name=ngixproxy \
     -p 80:80 \
@@ -12,10 +13,12 @@ docker run -d
     -v  ./data:/data
     -v  ./letsencrypt:/etc/letsencrypt
     --restart unless-stopped \
-    jc21/nginx-proxy-manager:latest     
+    jc21/nginx-proxy-manager:latest 
+```        
 -----
-Runing Extraordinary-cbt
+### Runing Extraordinary-cbt
 -----
+```bash
 docker run -d \
   --name=extraordinary-cbt \
   -p 8080:80 \
@@ -25,7 +28,7 @@ docker run -d \
   -e MYSQL_ROOT_PASSWORD=password \
   --restart unless-stopped \
   animegasan/extraordinary-cbt:latest
-
+```
   ----
 
 Setup Ngix Proxy Manager 
