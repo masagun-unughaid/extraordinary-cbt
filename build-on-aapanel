@@ -1,0 +1,16 @@
+Install AAPanel From aapanel.com
+Activate Docker Compose and Docker Manager
+Run Code in terminal 
+---
+docker run -d \
+  --name=extraordinary-cbt \
+  -p 8080:80 \
+  -e MYSQL_DATABASE=database \
+  -e MYSQL_USER=user \
+  -e MYSQL_PASSWORD=password \
+  -e MYSQL_ROOT_PASSWORD=password \
+  --restart unless-stopped \
+  animegasan/extraordinary-cbt:latest
+
+  ----
+  
