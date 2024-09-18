@@ -7,7 +7,7 @@ services:
       - 8080:80
     environment:
       MYSQL_DATABASE: database
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
-      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: user123
+      MYSQL_PASSWORD: password123
+      MYSQL_ROOT_PASSWORD: password123
     restart: unless-stopped
