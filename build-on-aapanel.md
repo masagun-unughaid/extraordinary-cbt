@@ -1,4 +1,4 @@
-Setup for aapanel
+## Setup for aapanel
 
 - Install AAPanel From aapanel.com
 - Activate Docker Compose and Docker Manager from applications list 
@@ -33,7 +33,7 @@ docker run -d \
 ```
   ----
 
-## Web interface Setup Ngix Proxy Manager 
+### Web interface Setup Ngix Proxy Manager 
 Visit the url `http://<IP_ADDRESS>:81` to access ngix proxy manager
 Default Password :
 - Email:    admin@example.com
